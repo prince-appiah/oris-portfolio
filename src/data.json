@@ -1,0 +1,89 @@
+{
+  "header": {
+    "title": "Hi there 👋",
+    "subtitle": "I’m Prince Appiah, a design-minded fullstack developer focused on building beautiful interfaces & experiences ✨",
+    "avatarUrl": "avatar.svg"
+  },
+  "getInTouch": {
+    "github": "https://www.github.com/prince-appiah",
+    "linkedin": "https://www.linkedin.com/in/prince-appiah",
+    "dribbble": "https://www.dribbble.com/prince-appiah",
+    "gmail": "mailto:pappiah00@gmail.com"
+  },
+  "languages": {
+    "javascript": "",
+    "dart": ""
+  },
+  "tools": {
+    "backend": {
+      "nodejs": "",
+      "express": ""
+    },
+    "frontend": {
+      "react": "",
+      "redux": "",
+      "chakraUI": "",
+      "materialUI": "",
+      "tailwindCSS": ""
+    },
+    "mobile": {
+      "flutter": ""
+    },
+    "database": {
+      "mongodb": "",
+      "msl": ""
+    },
+    "design": {
+      "figma": ""
+    }
+  },
+  "featuredProjects": [
+    {
+      "id": 0,
+      "image": "",
+      "description": "",
+      "tags": ["react", "tailwindcss", "redux"],
+      "repo": ""
+    },
+    {
+      "id": 1,
+      "image": "",
+      "description": "",
+      "tags": ["react", "tailwindcss", "redux"],
+      "repo": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "description": "",
+      "tags": ["react", "tailwindcss", "redux"],
+      "repo": ""
+    }
+  ],
+  "otherProjects": [
+    {
+      "id": 0,
+      "description": "",
+      "tags": ["react", "tailwindcss", "redux"],
+      "repo": ""
+    },
+    {
+      "id": 1,
+      "description": "",
+      "tags": ["react", "tailwindcss", "redux"],
+      "repo": ""
+    },
+    {
+      "id": 2,
+      "description": "",
+      "tags": ["react", "tailwindcss", "redux"],
+      "repo": ""
+    },
+    {
+      "id": 3,
+      "description": "",
+      "tags": ["react", "tailwindcss", "redux"],
+      "repo": ""
+    }
+  ]
+}
