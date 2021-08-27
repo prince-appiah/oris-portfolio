@@ -5,6 +5,7 @@ import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
 import dribbble from '../assets/dribbble.svg';
 import gmail from '../assets/gmail.svg';
+import { Button } from '@chakra-ui/button';
 
 function GetInTouch({ getInTouch }) {
   const { title, git, lnkdn, drble, mail } = getInTouch;
@@ -18,6 +19,19 @@ function GetInTouch({ getInTouch }) {
         <Item icon={linkedin} link={lnkdn.link} bg="blue.50" hover="blue.200" />
         <Item icon={dribbble} link={drble.link} bg="red.50" hover="red.100" />
         <Item icon={gmail} link={mail.link} bg="red.50" hover="red.100" />
+      </Flex>
+      <Flex mt="14">
+        {/* <Box as="button" p="4" rounded="base" color="#7F58F4" bg="#EDE7FD"> */}
+        <Box
+          as="button"
+          p="4"
+          rounded="md"
+          color="purple.600"
+          bg="purple.100"
+          _hover={{ bg: 'purple.200' }}
+        >
+          <Text fontWeight="medium"> Download Resume 📝</Text>
+        </Box>
       </Flex>
     </Box>
   );
