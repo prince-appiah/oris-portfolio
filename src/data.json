@@ -4,10 +4,23 @@
     "subtitle": "I’m Prince Appiah, a design-minded fullstack developer focused on building beautiful interfaces & experiences ✨"
   },
   "getInTouch": {
-    "github": "https://www.github.com/prince-appiah",
-    "linkedin": "https://www.linkedin.com/in/prince-appiah",
-    "dribbble": "https://www.dribbble.com/prince-appiah",
-    "gmail": "mailto:pappiah00@gmail.com"
+    "title": "GET IN TOUCH 👇",
+    "git": {
+      "link": "https://www.github.com/prince-appiah",
+      "icon": "/assets/github.svg"
+    },
+    "lnkdn": {
+      "link": "https://www.linkedin.com/in/prince-appiah",
+      "icon": "./assets/linkedin.svg"
+    },
+    "drble": {
+      "link": "https://www.dribbble.com/prince-appiah",
+      "icon": "./assets/dribbble.svg"
+    },
+    "mail": {
+      "link": "mailto:pappiah00@gmail.com",
+      "icon": "./assets/gmail.svg"
+    }
   },
   "languages": {
     "javascript": "",
