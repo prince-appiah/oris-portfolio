@@ -21,7 +21,6 @@ function GetInTouch({ getInTouch }) {
         <Item icon={gmail} link={mail.link} bg="red.50" hover="red.100" />
       </Flex>
       <Flex mt="14">
-        {/* <Box as="button" p="4" rounded="base" color="#7F58F4" bg="#EDE7FD"> */}
         <Box
           as="button"
           p="4"
