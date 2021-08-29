@@ -11,15 +11,15 @@
     },
     "lnkdn": {
       "link": "https://www.linkedin.com/in/prince-appiah",
-      "icon": "./assets/linkedin.svg"
+      "icon": "/assets/linkedin.svg"
     },
     "drble": {
       "link": "https://www.dribbble.com/prince-appiah",
-      "icon": "./assets/dribbble.svg"
+      "icon": "/assets/dribbble.svg"
     },
     "mail": {
       "link": "mailto:pappiah00@gmail.com",
-      "icon": "./assets/gmail.svg"
+      "icon": "/assets/gmail.svg"
     }
   },
   "languages": {
@@ -27,6 +27,7 @@
     "dart": ""
   },
   "tools": {
+    "title": "TOOLS I WORK WITH 🛠",
     "backend": {
       "nodejs": "",
       "express": ""

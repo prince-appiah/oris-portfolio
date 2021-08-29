@@ -1,11 +1,9 @@
-import { Box, Flex, Heading, Link, Text } from '@chakra-ui/layout';
 import { Image } from '@chakra-ui/image';
-
-import github from '../assets/github.svg';
-import linkedin from '../assets/linkedin.svg';
+import { Box, Flex, Heading, Text } from '@chakra-ui/layout';
 import dribbble from '../assets/dribbble.svg';
+import github from '../assets/github.svg';
 import gmail from '../assets/gmail.svg';
-import { Button } from '@chakra-ui/button';
+import linkedin from '../assets/linkedin.svg';
 
 function GetInTouch({ getInTouch }) {
   const { title, git, lnkdn, drble, mail } = getInTouch;
