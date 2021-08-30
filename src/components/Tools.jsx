@@ -14,4 +14,9 @@ function Tools({ tools }) {
   );
 }
 
+
+const ToolCard = () => {
+    return ()
+}
+
 export default Tools;
