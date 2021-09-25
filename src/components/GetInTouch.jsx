@@ -1,5 +1,5 @@
 import { Image } from '@chakra-ui/image';
-import { Box, Flex, Heading, Text } from '@chakra-ui/layout';
+import { Box, Flex, Heading, LinkBox, Text } from '@chakra-ui/layout';
 import dribbble from '../assets/dribbble.svg';
 import github from '../assets/github.svg';
 import gmail from '../assets/gmail.svg';
@@ -13,7 +13,7 @@ function GetInTouch({ getInTouch }) {
         {title}
       </Heading>
       <Flex mt="6">
-        <Item icon={github} link={git.link} bg="gray.100" hover="gray.200" />
+        <Item icon={github} link={git.link} bg="gray.100" hover="gray.300" />
         <Item icon={linkedin} link={lnkdn.link} bg="blue.50" hover="blue.200" />
         <Item icon={dribbble} link={drble.link} bg="red.50" hover="red.100" />
         <Item icon={gmail} link={mail.link} bg="red.50" hover="red.100" />
@@ -36,7 +36,7 @@ function GetInTouch({ getInTouch }) {
 
 const Item = ({ icon, bg, hover, link }) => {
   return (
-    <Box
+    <LinkBox
       as="a"
       href={link}
       target="_blank"
@@ -46,10 +46,12 @@ const Item = ({ icon, bg, hover, link }) => {
       p="2.5"
       rounded="base"
       bg={bg}
+      borderWidth="1px"
+      borderColor={hover}
       _hover={{ bg: hover }}
     >
       <Image src={icon} />
-    </Box>
+    </LinkBox>
   );
 };
 
