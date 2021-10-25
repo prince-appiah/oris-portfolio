@@ -26,51 +26,60 @@
     "javascript": "",
     "dart": ""
   },
-  "tools": {
-    "title": "TOOLS I WORK WITH 🛠",
-    "backend": {
-      "nodejs": "",
-      "express": ""
-    },
-    "frontend": {
-      "react": "",
-      "redux": "",
-      "chakraUI": "",
-      "materialUI": "",
-      "tailwindCSS": ""
-    },
-    "mobile": {
-      "flutter": ""
-    },
-    "database": {
-      "mongodb": "",
-      "msl": ""
-    },
-    "design": {
-      "figma": ""
-    }
-  },
-  "featuredProjects": [
+  "tools": [
     {
       "id": 0,
-      "image": "",
-      "description": "",
-      "tags": ["react", "tailwindcss", "redux"],
-      "repo": ""
+      "name": "Node JS",
+      "icon": "https://camo.githubusercontent.com/62262608dd3b121496461fb33c76d6d7cc9804584eec5df75179f153290857b2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52656163744a532d3631444146423f7374796c653d666f722d7468652d6261646765266c6f676f3d5265616374266c6f676f436f6c6f723d7768697465"
     },
     {
       "id": 1,
+      "name": "React",
+      "icon": "https://camo.githubusercontent.com/099ca2c20d5ebff4efb4d9b40eb6d70cb2b8524921be098467f14242765757e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d4e6f64652e6a73266c6f676f436f6c6f723d7768697465"
+    },
+    {
+      "id": 3,
+      "name": "Redux",
+      "icon": "https://camo.githubusercontent.com/099ca2c20d5ebff4efb4d9b40eb6d70cb2b8524921be098467f14242765757e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d4e6f64652e6a73266c6f676f436f6c6f723d7768697465"
+    },
+    {
+      "id": 4,
+      "name": "Flutter",
+      "icon": "https://camo.githubusercontent.com/099ca2c20d5ebff4efb4d9b40eb6d70cb2b8524921be098467f14242765757e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d4e6f64652e6a73266c6f676f436f6c6f723d7768697465"
+    },
+    {
+      "id": 5,
+      "name": "MongoDB",
+      "icon": "https://camo.githubusercontent.com/099ca2c20d5ebff4efb4d9b40eb6d70cb2b8524921be098467f14242765757e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d4e6f64652e6a73266c6f676f436f6c6f723d7768697465"
+    }
+  ],
+  "featuredProjects": [
+    {
+      "id": 0,
+      "name": "Restaurant API",
+      "image": "",
+      "description": "An Express API built for a restaurant app",
+      "tags": ["node", "express", "mysql"],
+      "repo": "https://www.github.com/prince-appiah/food-delivery-api",
+      "link": ""
+    },
+    {
+      "id": 1,
+      "name": "Tesla",
       "image": "",
       "description": "",
-      "tags": ["react", "tailwindcss", "redux"],
-      "repo": ""
+      "tags": ["react", "material-ui"],
+      "repo": "https://www.github.com/prince-appiah/tesla-clone",
+      "link": ""
     },
     {
       "id": 2,
+      "name": "",
       "image": "",
       "description": "",
       "tags": ["react", "tailwindcss", "redux"],
-      "repo": ""
+      "repo": "",
+      "link": ""
     }
   ],
   "otherProjects": [

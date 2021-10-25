@@ -1,6 +1,7 @@
 import { Container } from '@chakra-ui/layout';
 import { ChakraProvider, theme } from '@chakra-ui/react';
 import React from 'react';
+import { FeaturedProjects } from './components/FeaturedProjects';
 
 import GetInTouch from './components/GetInTouch';
 import Intro from './components/Intro';
@@ -15,6 +16,7 @@ function App() {
         <Intro header={header} />
         <GetInTouch getInTouch={getInTouch} />
         <Tools tools={tools} />
+        <FeaturedProjects />
       </Container>
     </ChakraProvider>
   );

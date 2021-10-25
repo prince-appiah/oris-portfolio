@@ -1,7 +1,6 @@
-import { Circle, Flex, Heading, HStack, Spacer, Text } from '@chakra-ui/layout';
 import { Image } from '@chakra-ui/image';
-import { Box, Avatar } from '@chakra-ui/react';
-
+import { Circle, Heading, Text } from '@chakra-ui/layout';
+import { Box } from '@chakra-ui/react';
 import avatar from '../assets/avatar.png';
 
 function Intro({ header }) {
