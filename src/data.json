@@ -61,7 +61,7 @@
       "description": "An Express API built for a restaurant app",
       "tags": ["node", "express", "mysql"],
       "repo": "https://www.github.com/prince-appiah/food-delivery-api",
-      "link": ""
+      "link": "https://www.github.com/prince-appiah/food-delivery-api"
     },
     {
       "id": 1,
@@ -70,16 +70,16 @@
       "description": "",
       "tags": ["react", "material-ui"],
       "repo": "https://www.github.com/prince-appiah/tesla-clone",
-      "link": ""
+      "link": "https://www.github.com/prince-appiah/tesla-clone"
     },
     {
       "id": 2,
-      "name": "",
+      "name": "Room Finder API",
       "image": "",
-      "description": "",
+      "description": "A hotel booking app",
       "tags": ["react", "tailwindcss", "redux"],
-      "repo": "",
-      "link": ""
+      "repo": "https://www.github.com/prince-appiah/room-finder-api",
+      "link": "https://www.github.com/prince-appiah/room-finder-api"
     }
   ],
   "otherProjects": [

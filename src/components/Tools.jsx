@@ -4,8 +4,6 @@ import { Box, Grid, Heading, Text } from '@chakra-ui/layout';
 import react from '../assets/react.svg';
 
 function Tools({ tools }) {
-  const { title } = tools;
-
   return (
     <Box mt="20">
       <Heading as="h3" size="sm">
