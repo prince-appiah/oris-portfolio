@@ -6,7 +6,13 @@ import avatar from '../assets/avatar.png';
 function Intro({ header }) {
   const { title, subtitle } = header;
   return (
-    <Box mt="8" display="flex" justifyContent="space-between">
+    <Box
+      mt="8"
+      display="flex"
+      flexDirection={{ base: 'column', md: 'row' }}
+      justifyContent="space-between"
+      alignItems={{ base: 'center' }}
+    >
       <Box display="flex" flexDirection="column" justifyContent="space-evenly">
         <Heading
           as="h3"
