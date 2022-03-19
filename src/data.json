@@ -29,46 +29,66 @@
   "tools": [
     {
       "id": 0,
-      "name": "Node JS",
-      "icon": "https://camo.githubusercontent.com/62262608dd3b121496461fb33c76d6d7cc9804584eec5df75179f153290857b2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52656163744a532d3631444146423f7374796c653d666f722d7468652d6261646765266c6f676f3d5265616374266c6f676f436f6c6f723d7768697465"
+      "name": "Express JS",
+      "icon": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/assets/express.svg"
     },
     {
       "id": 1,
       "name": "React",
-      "icon": "https://camo.githubusercontent.com/099ca2c20d5ebff4efb4d9b40eb6d70cb2b8524921be098467f14242765757e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d4e6f64652e6a73266c6f676f436f6c6f723d7768697465"
+      "icon": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/assets/react.svg"
+    },
+    {
+      "id": 2,
+      "name": "Next.js",
+      "icon": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/assets/nextjs.svg"
     },
     {
       "id": 3,
       "name": "Redux",
-      "icon": "https://camo.githubusercontent.com/099ca2c20d5ebff4efb4d9b40eb6d70cb2b8524921be098467f14242765757e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d4e6f64652e6a73266c6f676f436f6c6f723d7768697465"
+      "icon": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/assets/redux.svg"
     },
     {
       "id": 4,
       "name": "Flutter",
-      "icon": "https://camo.githubusercontent.com/099ca2c20d5ebff4efb4d9b40eb6d70cb2b8524921be098467f14242765757e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d4e6f64652e6a73266c6f676f436f6c6f723d7768697465"
+      "icon": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/assets/flutter.svg"
     },
     {
       "id": 5,
       "name": "MongoDB",
-      "icon": "https://camo.githubusercontent.com/099ca2c20d5ebff4efb4d9b40eb6d70cb2b8524921be098467f14242765757e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d4e6f64652e6a73266c6f676f436f6c6f723d7768697465"
+      "icon": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/assets/mongodb.svg"
+    },
+    {
+      "id": 6,
+      "name": "Sequelize",
+      "icon": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/assets/sequelize.svg"
+    },
+    {
+      "id": 7,
+      "name": "Material UI",
+      "icon": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/assets/mui.svg"
+    },
+    {
+      "id": 8,
+      "name": "Tailwind CSS",
+      "icon": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/assets/tailwindcss.svg"
     }
   ],
   "featuredProjects": [
     {
       "id": 0,
-      "name": "Restaurant API",
+      "name": "LinkedIn 2.0",
       "image": "",
-      "description": "An Express API built for a restaurant app",
-      "tags": ["node", "express", "mysql"],
+      "description": "A clone of the LinkedIn WebApp",
+      "tags": ["nextjs", "next-auth", "mongodb", "tailwindcss"],
       "repo": "https://www.github.com/prince-appiah/food-delivery-api",
       "link": "https://www.github.com/prince-appiah/food-delivery-api"
     },
     {
       "id": 1,
-      "name": "Tesla",
+      "name": "Medium Clone",
       "image": "",
-      "description": "",
-      "tags": ["react", "material-ui"],
+      "description": "A clone of the Medium WebApp",
+      "tags": ["react", "material-ui", "tailwindcss"],
       "repo": "https://www.github.com/prince-appiah/tesla-clone",
       "link": "https://www.github.com/prince-appiah/tesla-clone"
     },
