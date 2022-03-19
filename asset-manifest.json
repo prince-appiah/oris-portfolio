@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/oris-portfolio/static/js/main.057b5dbb.chunk.js",
+    "main.js.map": "/oris-portfolio/static/js/main.057b5dbb.chunk.js.map",
+    "runtime-main.js": "/oris-portfolio/static/js/runtime-main.4f77d366.js",
+    "runtime-main.js.map": "/oris-portfolio/static/js/runtime-main.4f77d366.js.map",
+    "static/js/2.2a5954af.chunk.js": "/oris-portfolio/static/js/2.2a5954af.chunk.js",
+    "static/js/2.2a5954af.chunk.js.map": "/oris-portfolio/static/js/2.2a5954af.chunk.js.map",
+    "static/js/3.0a582fe3.chunk.js": "/oris-portfolio/static/js/3.0a582fe3.chunk.js",
+    "static/js/3.0a582fe3.chunk.js.map": "/oris-portfolio/static/js/3.0a582fe3.chunk.js.map",
+    "index.html": "/oris-portfolio/index.html",
+    "static/js/2.2a5954af.chunk.js.LICENSE.txt": "/oris-portfolio/static/js/2.2a5954af.chunk.js.LICENSE.txt",
+    "static/media/avatar.98c1ccb8.png": "/oris-portfolio/static/media/avatar.98c1ccb8.png",
+    "static/media/dribbble.bd1753c1.svg": "/oris-portfolio/static/media/dribbble.bd1753c1.svg",
+    "static/media/github.6c070a02.svg": "/oris-portfolio/static/media/github.6c070a02.svg",
+    "static/media/gmail.e8afd804.svg": "/oris-portfolio/static/media/gmail.e8afd804.svg",
+    "static/media/linkedin.2742b0f7.svg": "/oris-portfolio/static/media/linkedin.2742b0f7.svg",
+    "static/media/react.3050572a.svg": "/oris-portfolio/static/media/react.3050572a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f77d366.js",
+    "static/js/2.2a5954af.chunk.js",
+    "static/js/main.057b5dbb.chunk.js"
+  ]
+}
