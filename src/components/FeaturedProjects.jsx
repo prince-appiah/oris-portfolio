@@ -31,7 +31,7 @@ const FeaturedCard = ({ item }) => {
   return (
     <Box
       display="flex"
-      flexDirection={{ sm: 'column', md: 'row', lg: 'column' }}
+      flexDirection={{ base: 'column', sm: 'column', md: 'row', lg: 'column' }}
     >
       <Box width={{ base: '100%', md: '50%', lg: '100%' }}>
         <Image

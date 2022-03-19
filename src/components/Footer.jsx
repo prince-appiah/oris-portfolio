@@ -3,8 +3,14 @@ import React from 'react';
 
 export const Footer = () => {
   return (
-    <Box my={8} display="flex" justifyContent="space-between">
-      <Text color="gray.500">
+    <Box
+      my={8}
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      justifyContent="space-between"
+    >
+      <Text color="gray.500" mb={3}>
         Designed and developed with by{' '}
         <Box
           as="span"

@@ -1,8 +1,6 @@
 import { Image } from '@chakra-ui/image';
 import { Box, Grid, Heading, Text } from '@chakra-ui/layout';
 
-import react from '../assets/react.svg';
-
 function Tools({ tools }) {
   return (
     <Box mt="20">
@@ -24,19 +22,13 @@ function Tools({ tools }) {
 
 const ToolCard = ({ title, icon }) => {
   return (
-    <Box p="3" height="full" width="auto" bg="gray.100">
-      <Box mb="8" pt="3" display="flex" alignItems="center">
-        <Text pr="6">
-          <Image src={icon} />
-        </Text>
+    <Box p="2" height="full" width="auto" bg="gray.100">
+      <Box p="3" display="flex" alignItems="center">
+        <Image src={icon} width={14} height={14} pr={6} />
         <Text color="gray.800" fontWeight="medium">
           {title}
         </Text>
       </Box>
-      {/* <Text color="gray.500">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea repellendus
-        veritatis dolores sed! Voluptatum, vel eligendi ab fugit tempora tempore
-      </Text> */}
     </Box>
   );
 };
