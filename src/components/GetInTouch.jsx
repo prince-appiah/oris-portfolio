@@ -25,12 +25,14 @@ function GetInTouch({ getInTouch }) {
           hasArrow
         > */}
         <Box
-          as="button"
+          as="a"
           p="4"
           rounded="md"
           color="purple.600"
           bg="purple.100"
-          _hover={{ bg: 'purple.200' }}
+          href="https://drive.google.com/file/d/1CC4viyw_1mZgWOvlxAM7-pZZCQRj4w7k/view?usp=sharing"
+          target="_blank"
+          _hover={{ bg: 'purple.200', cursor: 'pointer' }}
         >
           <Text fontWeight="medium"> Download Resume 📝</Text>
         </Box>

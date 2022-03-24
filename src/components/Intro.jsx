@@ -1,12 +1,10 @@
 import { Image } from '@chakra-ui/image';
 import { Circle, Heading, Text } from '@chakra-ui/layout';
 import { Box } from '@chakra-ui/react';
-import { useNavigate } from 'react-router-dom';
 import avatar from '../assets/avatar.png';
 
 function Intro({ header }) {
   const { title, subtitle } = header;
-  const navigate = useNavigate();
 
   return (
     <Box
