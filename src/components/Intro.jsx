@@ -30,6 +30,7 @@ function Intro({ header }) {
           letterSpacing="wide"
           fontWeight="normal"
           color="gray.500"
+          pt={5}
         >
           {subtitle}
         </Text>

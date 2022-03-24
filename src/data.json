@@ -77,11 +77,11 @@
     {
       "id": 0,
       "name": "LinkedIn 2.0",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/screenshots/app-dark.png",
       "description": "A clone of the LinkedIn WebApp",
-      "tags": ["nextjs", "next-auth", "mongodb", "tailwindcss"],
-      "repo": "https://www.github.com/prince-appiah/food-delivery-api",
-      "link": "https://www.github.com/prince-appiah/food-delivery-api"
+      "tags": ["nextjs", "next-auth", "mongodb", "tailwindcss", "recoil"],
+      "repo": "https://github.com/prince-appiah/linkedin-2.0",
+      "link": "https://linkedin-2-0.vercel.app/"
     },
     {
       "id": 1,
