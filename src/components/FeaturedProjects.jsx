@@ -2,6 +2,7 @@ import { IconButton } from '@chakra-ui/button';
 import { ExternalLinkIcon, SettingsIcon } from '@chakra-ui/icons';
 import { Image } from '@chakra-ui/image';
 import { Badge, Box, Grid, Heading, Link, Text } from '@chakra-ui/layout';
+import { Tooltip } from '@chakra-ui/react';
 
 export const FeaturedProjects = ({ featuredProjects }) => {
   return (
@@ -32,6 +33,7 @@ const FeaturedCard = ({ item }) => {
     <Box
       display="flex"
       flexDirection={{ base: 'column', sm: 'column', md: 'row', lg: 'column' }}
+      _hover={{ cursor: 'pointer', bgColor: 'gray.50', rounded: 'md' }}
     >
       <Box width={{ base: '100%', md: '50%', lg: '100%' }}>
         <Image
@@ -39,10 +41,10 @@ const FeaturedCard = ({ item }) => {
           rounded="md"
           height={{ base: 200, sm: 200, md: 240, lg: 200 }}
           width="full"
-          loading="lazy"
+          loading="eager"
           src={item.image}
           alt={item.name}
-        ></Image>
+        />
       </Box>
       <Box
         width={{ md: '50%', lg: '100%' }}
@@ -89,22 +91,29 @@ const FeaturedCard = ({ item }) => {
         </Box>
 
         <Box pt={{ base: 4, sm: 4, md: 3 }}>
-          <IconButton
-            mr={4}
-            size="sm"
-            variant="outline"
-            icon={<SettingsIcon />}
-            as={Link}
-            href={item.repo}
-          />
-          <IconButton
-            mr={4}
-            size="sm"
-            variant="outline"
-            icon={<ExternalLinkIcon />}
-            as={Link}
-            href={item.link}
-          />
+          <Tooltip label="View Source Code">
+            <IconButton
+              mr={4}
+              size="sm"
+              variant="outline"
+              icon={<SettingsIcon />}
+              as={Link}
+              href={item.repo}
+              target="_blank"
+            />
+          </Tooltip>
+
+          <Tooltip label="Live Preview">
+            <IconButton
+              mr={4}
+              size="sm"
+              variant="outline"
+              icon={<ExternalLinkIcon />}
+              as={Link}
+              href={item.link}
+              target="_blank"
+            />
+          </Tooltip>
         </Box>
       </Box>
     </Box>

@@ -77,7 +77,7 @@
     {
       "id": 0,
       "name": "LinkedIn 2.0",
-      "image": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/screenshots/app-dark.png",
+      "image": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/screenshots/linkedin-app-dark.png",
       "description": "A clone of the LinkedIn WebApp",
       "tags": ["nextjs", "next-auth", "mongodb", "tailwindcss", "recoil"],
       "repo": "https://github.com/prince-appiah/linkedin-2.0",
@@ -86,11 +86,11 @@
     {
       "id": 1,
       "name": "Medium Clone",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/screenshots/medium-app-light.png",
       "description": "A clone of the Medium WebApp",
-      "tags": ["react", "material-ui", "tailwindcss"],
-      "repo": "https://www.github.com/prince-appiah/tesla-clone",
-      "link": "https://www.github.com/prince-appiah/tesla-clone"
+      "tags": ["react", "material-ui", "tailwindcss", "typescript"],
+      "repo": "https://github.com/prince-appiah/medium-clone",
+      "link": "https://medium-clone-orcin.vercel.app"
     },
     {
       "id": 2,
