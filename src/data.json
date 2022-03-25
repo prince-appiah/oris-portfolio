@@ -85,7 +85,7 @@
     },
     {
       "id": 1,
-      "name": "Medium Clone",
+      "name": "Medium 2.0",
       "image": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/screenshots/medium-app-light.png",
       "description": "A clone of the Medium WebApp",
       "tags": ["react", "material-ui", "tailwindcss", "typescript"],
@@ -94,10 +94,10 @@
     },
     {
       "id": 2,
-      "name": "Room Finder API",
+      "name": "Shelter API",
       "image": "",
-      "description": "A hotel booking app",
-      "tags": ["react", "tailwindcss", "redux"],
+      "description": "A property management system that connects property owners and tenants",
+      "tags": ["express", "mongoose", "jwt", "otp"],
       "repo": "https://www.github.com/prince-appiah/room-finder-api",
       "link": "https://www.github.com/prince-appiah/room-finder-api"
     }
