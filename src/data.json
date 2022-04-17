@@ -78,19 +78,19 @@
       "id": 0,
       "name": "LinkedIn 2.0",
       "image": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/screenshots/linkedin-app-dark.png",
-      "description": "A clone of the LinkedIn WebApp",
+      "description": "A clone of the LinkedIn WebApp built with Next.js",
       "tags": ["nextjs", "next-auth", "mongodb", "tailwindcss", "recoil"],
       "repo": "https://github.com/prince-appiah/linkedin-2.0",
       "link": "https://linkedin-2-0.vercel.app/"
     },
     {
       "id": 1,
-      "name": "Medium 2.0",
-      "image": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/screenshots/medium-app-light.png",
-      "description": "A clone of the Medium WebApp",
-      "tags": ["react", "material-ui", "tailwindcss", "typescript"],
-      "repo": "https://github.com/prince-appiah/medium-clone",
-      "link": "https://medium-clone-orcin.vercel.app"
+      "name": "Netflix 2.0",
+      "image": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/screenshots/netflix-dark.png",
+      "description": "A clone of the Netflix website built with Next.js",
+      "tags": ["nextjs", "firebase", "tailwindcss", "typescript", "recoil"],
+      "repo": "https://github.com/prince-appiah/netflix-2.0",
+      "link": "https://netflix-2-0-self.vercel.app/"
     },
     {
       "id": 2,
