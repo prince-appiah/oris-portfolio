@@ -94,12 +94,12 @@
     },
     {
       "id": 2,
-      "name": "Shelter API",
-      "image": "",
-      "description": "A property management system that connects property owners and tenants",
-      "tags": ["express", "mongoose", "jwt", "otp"],
-      "repo": "https://www.github.com/prince-appiah/room-finder-api",
-      "link": "https://www.github.com/prince-appiah/room-finder-api"
+      "name": "Reddit 2.0",
+      "image": "https://raw.githubusercontent.com/prince-appiah/oris-portfolio/master/src/screenshots/reddit-communities.png",
+      "description": "A clone of the Reddit website built with Next.js",
+      "tags": ["nextjs", "firebase", "chakra-ui", "typescript", "recoil"],
+      "repo": "https://www.github.com/prince-appiah/reddit-2.0",
+      "link": "https://www.github.com/prince-appiah/reddit-2.0"
     }
   ],
   "otherProjects": [
